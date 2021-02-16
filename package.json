@@ -19,9 +19,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedromsmendes/coingecko-api-node.git"
+    "url": "git+https://github.com/pedromsmendes/coingecko-api-ts.git"
   },
-  "homepage": "https://github.com/pedromsmendes/coingecko-api-node#readme",
+  "homepage": "https://github.com/pedromsmendes/coingecko-api-ts#readme",
   "author": "pedromsmendes",
   "license": "MIT",
   "keywords": [
