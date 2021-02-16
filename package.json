@@ -1,0 +1,53 @@
+{
+  "name": "coingecko-api-node",
+  "version": "0.0.1",
+  "description": "Coingecko API with typescript (WIP)",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "lint": "eslint . --ext .ts --fix",
+    "test": "nyc mocha",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedromsmendes/coingecko-api-node.git"
+  },
+  "homepage": "https://github.com/pedromsmendes/coingecko-api-node#readme",
+  "author": "pedromsmendes",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "npm",
+    "api",
+    "typescript",
+    "cryptocurrency",
+    "coingeckoapi",
+    "coingecko"
+  ],
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.20",
+    "@types/node-fetch": "^2.5.8",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "chai": "^4.3.0",
+    "eslint": "^7.17.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}

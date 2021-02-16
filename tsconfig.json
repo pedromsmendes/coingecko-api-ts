@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "declaration": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2020",
+      "esnext.asynciterable"
+    ],
+    "moduleResolution": "node",
+    "outDir": "./build"
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules",
+    "test",
+    ".nyc_output",
+    "coverage",
+  ]
+}

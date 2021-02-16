@@ -1,0 +1,15 @@
+{
+  "reporter": [
+    "html",
+    "text-summary"
+  ],
+  "cache": false,
+  "exclude": [
+    "test/",
+    "coverage/"
+  ],
+  "extension": [
+    ".ts"
+  ],
+  "all": true
+}

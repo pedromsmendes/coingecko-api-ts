@@ -1,1 +1,1 @@
-coingecko-api-ts
+**Coingecko api in node and ts (WIP)**

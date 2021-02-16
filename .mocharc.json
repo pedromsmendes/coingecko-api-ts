@@ -1,0 +1,14 @@
+{
+  "diff": true,
+  "inline-diffs": true,
+  "bail": true,
+  "timeout": 5000,
+  "recursive": true,
+  "exit": true,
+  "extension": ["ts"],
+  "spec": "test/**/*.ts",
+  "require": [
+    "ts-node/register",
+    "source-map-support/register"
+  ]
+}
