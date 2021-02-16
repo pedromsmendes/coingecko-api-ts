@@ -1,5 +1,5 @@
 {
-  "name": "coingecko-api-node",
+  "name": "coingecko-api-ts",
   "version": "0.0.1",
   "description": "Coingecko API with typescript (WIP)",
   "main": "build/src/index.js",
